@@ -1,0 +1,73 @@
+@import url(global.css);
+
+img {
+    width: 712px;
+    height: 832px;
+}
+
+.root {
+    display: flex;
+    flex: 1;
+    gap: 2rem;
+}
+
+.detination {
+    display: grid;
+    grid-area: 1/1/-1/1;
+}
+
+.destination__favorit {
+    grid-area: 1/1/-1/1;
+    z-index: 2;
+    text-align: right;
+    padding-right: 1rem;
+
+}
+
+.destination__info {
+    max-width: 483px;
+    display: grid;
+}
+
+.destination__city {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    justify-self: center;
+    align-self: flex-end;
+    text-transform: uppercase;
+}
+
+.destination__headline {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+
+    place-self: center;
+    text-align: center;
+}
+
+.destination__desctibtion {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    text-align: center
+}
+
+.destinations__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.facility{
+    display: flex;
+}
+
+.facility-headline {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
