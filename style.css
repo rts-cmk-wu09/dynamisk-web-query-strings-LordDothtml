@@ -1,0 +1,60 @@
+@import url(global.css);
+
+
+
+.bg-blue{
+display: flex;
+justify-content: space-between;
+background: #CEF9FF;
+padding: 1rem;
+
+text-transform: uppercase;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+}
+
+
+
+img{
+    max-width: 288px;
+    height: 288px;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.destinations__title{
+font-family: 'Inter';
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+
+
+text-transform: capitalize;
+
+color: #000000;
+width: 80%;
+padding: 2rem 0;
+}
+
+section div{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    flex: 1;
+    
+
+}
+article{
+    max-width: 288px;
+    height: 300px;
+    margin: 1rem 0;
+
+}
